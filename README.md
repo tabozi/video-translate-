@@ -21,8 +21,8 @@ A Python script that translates YouTube videos into French.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/video-translate.git
-cd video-translate
+git clone https://github.com/tabozi/video-translate-.git
+cd video-translate-
 ```
 
 2. Install the required packages:
