@@ -1,0 +1,7 @@
+yt-dlp>=2024.3.10
+moviepy==1.0.3
+openai-whisper
+torch
+ffmpeg-python
+deep-translator>=1.11.4
+gtts==2.4.0 
