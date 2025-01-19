@@ -49,6 +49,9 @@ python translate_video.py <youtube_url>
 ### Options
 
 - `--keep-temp, -k`: Keep temporary files after processing
+- `--model, -m`: Choose the Whisper model size (default: tiny)
+  - Possible values: tiny, base, small, medium, large
+  - Larger models provide better transcription but are slower
 
 ### Example
 
