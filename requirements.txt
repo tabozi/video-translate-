@@ -4,4 +4,6 @@ openai-whisper
 torch
 ffmpeg-python
 deep-translator>=1.11.4
-gtts==2.4.0 
+gtts==2.4.0
+pydub==0.25.1
+googletrans==3.1.0a0 
