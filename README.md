@@ -25,12 +25,23 @@ git clone https://github.com/tabozi/video-translate-.git
 cd video-translate-
 ```
 
-2. Install the required packages:
+2. Créez et activez un environnement virtuel Python :
+```bash
+# Sur Ubuntu/Debian
+python3 -m venv venv
+source venv/bin/activate
+
+# Sur Windows
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+3. Install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Install FFmpeg:
+4. Install FFmpeg:
 ```bash
 # On Ubuntu/Debian
 sudo apt update
@@ -42,7 +53,15 @@ sudo apt install ffmpeg
 
 ## Usage
 
+Assurez-vous que l'environnement virtuel est activé avant d'exécuter le script :
 ```bash
+# Sur Ubuntu/Debian
+source venv/bin/activate
+
+# Sur Windows
+.\venv\Scripts\activate
+
+# Puis exécutez le script
 python translate_video.py <youtube_url>
 ```
 
@@ -73,4 +92,5 @@ The script automatically detects and uses NVIDIA GPU if available:
 - The script requires an internet connection for YouTube download and translation
 - Video quality is preserved in the translation process
 - Processing time depends on video length and available hardware
-- GPU acceleration significantly improves processing speed 
+- GPU acceleration significantly improves processing speed
+- L'environnement virtuel doit être activé à chaque nouvelle session de terminal 
